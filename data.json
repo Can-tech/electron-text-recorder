@@ -1,0 +1,104 @@
+{
+  "General": {
+    "led_screens": {
+      "text": "A LED display is a flat panel display that uses an array of light-emitting diodes as pixels for a video display.",
+      "words": [
+        { "led": "led" },
+        { "display": "göstermek" },
+        { "flat": "düz" },
+        { "panel": "panel" },
+        { "array": "dizi" },
+        { "light": "ışık" },
+        { "emitting": "yayan" },
+        { "diodes": "diodlar" },
+        { "pixels": "pikseller" },
+        { "video": "video" }
+      ]
+    },
+    "diodes": {
+      "text": "A diode is a two-terminal electronic component that conducts current primarily in one direction.",
+      "words": [
+        { "diode": "diyot" },
+        { "two": "iki" },
+        { "terminal": "terminal" },
+        { "electronic": "elektronik" },
+        { "component": "bileşen" },
+        { "conducts": "yönetir" },
+        { "current": "akım" },
+        { "primarily": "öncelikle" },
+        { "direction": "yön" }
+      ]
+    }
+  },
+  "Physics": {
+    "quantum_mechanics": {
+      "text": "Quantum mechanics is the branch of physics dealing with atomic and subatomic systems and their interaction with radiation.",
+      "words": [
+        { "quantum": "kütle" },
+        { "mechanics": "mekanik" },
+        { "branch": "dal" },
+        { "physics": "fizik" },
+        { "dealing": "ilgilenme" },
+        { "atomic": "atomik" },
+        { "subatomic": "atom altı" },
+        { "systems": "sistemler" },
+        { "interaction": "etkileşim" },
+        { "radiation": "radyasyon" }
+      ]
+    },
+    "Optics": {
+      "text": "Optics is the branch of physics which involves the behaviour and properties of light, including its interactions with matter and the construction of instruments that use or detect it.",
+      "words": [
+        { "optics": "optik" },
+        { "branch": "dal" },
+        { "physics": "fizik" },
+        { "involves": "içerir" },
+        { "behaviour": "davranış" },
+        { "properties": "özellikler" },
+        { "light": "ışık" },
+        { "interactions": "etkileşimler" },
+        { "matter": "madde" },
+        { "construction": "inşaat" },
+        { "instruments": "aletler" },
+        { "use": "kullanım" },
+        { "detect": "tespit" }
+      ]
+    }
+  },
+  "Computer_Science": {
+    "redis": {
+      "text": "Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker.",
+      "words": [
+        { "redis": "redis" },
+        { "open": "açık" },
+        { "source": "kaynak" },
+        { "bsd": "bsd" },
+        { "licensed": "lisanslı" },
+        { "memory": "bellek" },
+        { "data": "veri" },
+        { "structure": "yapı" },
+        { "store": "mağaza" },
+        { "used": "kullanılan" },
+        { "database": "veritabanı" },
+        { "cache": "önbellek" },
+        { "message": "mesaj" },
+        { "broker": "komisyoncu" }
+      ]
+    }
+  },
+  "Science": {
+    "Polar_Interactions": {
+      "text": "Polar interactions are the interactions between molecules that exhibit permanent dipole moments.",
+      "words": [
+        { "polar": "kutuplu" },
+        { "interactions": "etkileşimler" },
+        { "interactions": "etkileşimler" },
+        { "molecules": "moleküller" },
+        { "exhibit": "sergi" },
+        { "permanent": "kalıcı" },
+        { "dipole": "dipol" },
+        { "moments": "anlar" }
+      ]
+    }
+  }
+}

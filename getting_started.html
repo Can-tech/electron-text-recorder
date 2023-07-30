@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET STARTED</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script defer src="./show_list.js"></script>
+</head>
+
+<body class="bg-slate-100 h-screen flex">
+    <div id="modal"
+        class="flex flex-col items-center w-[800px] h-[660px] bg-slate-300 rounded-xl absolute left-[15%] border border-black z-10 transition-all -top-[660px] target:top-0 [&>*:first-child]:target:-z-10 [&>*:last-child]:target:z-10">
+        <a href="#modal" class="absolute py-3 px-5 top-full left-[45%] bg-slate-600 rounded-lg z-10">New</a>
+        <a href="#close" class="absolute py-3 px-5 top-full left-[45%] bg-slate-600 rounded-lg -z-10">Close</a>
+        <div class="h-[10%] items-center gap-1 justify-center flex">
+            <b>Topic</b>
+            <form action="" onsubmit="handleTopicFormSubmit(event)">
+                <input type="text" class=" w-[300px] h-10">
+                <button type="submit" class="border bg-slate-100 py-3 px-6 rounded-lg font-semibold">Create</button>
+            </form>
+        </div>
+        <div class="h-[70%] items-center gap-1 justify-center flex flex-col mt-5">
+            <b>Paragraph</b>
+            <form action="" onsubmit="handleParagraphFormSubmit(event)" class="justify-center flex flex-col items-center">
+                <div>
+                <select id="selectTopic" name="options" onchange=selectParagraphHandle() class="w-[300px] h-10">
+                    <option value="option1">Option 123 23432432</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <input type="text" class="w-[300px] h-10" placeholder="Name">
+            </div>
+                <textarea class="mt-2 resize-none overflow-scroll overflow-x-hidden" rows="15" cols="100"></textarea>
+                <button class="mt-2 border bg-slate-100 py-3 px-6 rounded-lg font-semibold">Create</button>
+            </form>
+        </div>
+        <div class="h-[20%] justify-center items-center gap-1 flex">
+            <b>Word</b>
+            <form action="" onsubmit="handleWordFormSubmit(event)">
+                <select id="selectParagraph" onchange="" name="options" class="mt-2 w-[300px] h-10">
+                    <option value="option1">Option 1 11111</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <input class="w-[300px] h-10" placeholder="Type"></input>
+                <button class="border bg-slate-100 py-3 px-6 rounded-lg font-semibold">Create</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="bg-slate-300 rounded-xl w-1/4 m-4 overflow-scroll overflow-x-hidden">
+        <h2 class="ml-2 mt-1 font-bold text-xl">Topics</h2>
+        <div id="topics"></div>
+    </div>
+    <div class="bg-slate-100 rounded-xl w-1/2 m-4 ">
+        <div class="h-[65%] overflow-scroll overflow-x-hidden">
+            <h2 class="ml-2 mt-1 font-bold text-xl">Paragraph</h2>
+
+            <div id="paragraph"></div>
+        </div>
+        <hr />
+        <div class="overflow-scroll h-[35%]">
+            <h2 class="ml-2 mt-1 font-bold text-xl cursor-pointer">Texts</h2>
+            <div id="texts"></div>
+        </div>
+    </div>
+    <div class="bg-slate-300 rounded-xl w-1/4 m-4 overflow-scroll">
+        <h2 class="ml-2 mt-1 font-bold text-xl">Words</h2>
+        <div id="words"></div>
+    </div>
+</body>
+
+</html>

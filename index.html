@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <!-- import css -->
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <title>My Word APP</title>
+    <!-- import script -->
+    <script defer src="./show_list.js"></script>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="flex h-screen bg-slate-300 items-center justify-center flex-col gap-10"
+  >
+    <p class="font-bold text-4xl">English Word Bank</p>
+
+    <button class="rounded-lg font-bold bg-slate-500 p-3">
+      <a href="./getting_started.html"> GET STARTED</a>
+    </button>
+  </body>
+</html>
